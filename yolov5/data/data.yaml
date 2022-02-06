@@ -1,0 +1,7 @@
+path: ../Bike-Helmet-1/
+names:
+- With Helmet
+- Without Helmet
+nc: 2
+train: train/images/
+val: valid/images/
