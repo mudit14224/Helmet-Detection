@@ -40,8 +40,8 @@ Open the terminal and type the following
 ```
 $ git clone https://github.com/mudit14224/Helmet-Detection.git
 $ cd helmet-detection/yolov5
-$ python3 -m venv helmet-detect-env
-$ source helmet-detect-env/bin/activate
+$ python -m venv helmet-detect-env
+$ .\helmet-detect-env\Scripts\activate
 $ pip3 install -r requirements.txt
-$ python3 detect.py --weights "Path to model weights" --source "Path to image or video"
+$ python detect.py --weights "Path to model weights" --source "Path to image or video"
 ```
