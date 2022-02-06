@@ -34,3 +34,14 @@ This dataset (v1) is composed of 1,371 images of people with and without bike he
 ![alt text](https://github.com/mudit14224/Helmet-Detection/blob/main/Images/val_batch0_labels_m2.jpg)
 ### Validation batch predictions
 ![alt text](https://github.com/mudit14224/Helmet-Detection/blob/main/Images/val_batch0_pred_m2.jpg)
+
+## Running Instructions
+Open the terminal and type the following 
+```
+$ git clone https://github.com/mudit14224/Helmet-Detection.git
+$ cd helmet-detection/yolov5
+$ python3 -m venv helmet-detect-env
+$ source helmet-detect-env/bin/activate
+$ pip3 install -r requirements.txt
+$ python3 detect.py --weights "Path to model weights" --source "Path to image or video"
+```
