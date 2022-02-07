@@ -40,7 +40,7 @@ The images in this dataset has been auto-oriented and resized to 416x416. Furthe
 ![alt text](https://github.com/mudit14224/Helmet-Detection/blob/main/Images/val_batch0_labels_m2.jpg)
 ### Validation batch predictions
 ![alt text](https://github.com/mudit14224/Helmet-Detection/blob/main/Images/val_batch0_pred_m2.jpg)
-
+To Count the number of helmets, we just need to iterate over the output of the model and count the no. of times the class 0 shows up in the output. 
 ## Running Instructions
 Open the terminal and type the following 
 ```
