@@ -6,7 +6,9 @@
 
 ## Models Trained
 ## Yolov5 on the Kaggle dataset
-The Kaggle Dataset has 764 images belonging to 2 classes(with helmet and without helmet)
+The Kaggle Dataset has 764 images belonging to 2 classes(with helmet and without helmet).
+<br>
+The dataset was split into train(75%), validation(15%) and test(10%) sets. The images were auto-oriented and resized to 416x416 using Roboflow. The Xml annotations were converted to the YOLO v5 PyTorch using Roboflow.
 <br>
 <a href="https://github.com/mudit14224/Helmet-Detection/tree/main/Models/model%201/weights">Model Weights</a>
 <br>
@@ -22,6 +24,10 @@ The Kaggle Dataset has 764 images belonging to 2 classes(with helmet and without
 
 ## Yolov5 on the Roboflow Dataset
 This dataset (v1) is composed of 1,371 images of people with and without bike helmets.
+<br>
+The training set has 1.2k images, validation set has 126 images and the test set has 63 images. 
+<br>
+The images in this dataset has been auto-oriented and resized to 416x416. Further augmentations prior to import have been applied(Bounding Box Blur - upto 10 px)
 <br>
 <a href="https://github.com/mudit14224/Helmet-Detection/tree/main/Models/model%202/weights">Model Weights</a>
 <br>
